@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
  * main -The program  Prints lowercase alphabet in reverse.
