@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- *main -A program that Prints all combinations of two two-digit numbers starting from 0-99, separated by a comma then a space
+ *main -A program that Prints all combinations of two two-digit numbers,
+*starting from 0-99, separated by a comma then a space
  * Return: Always 0.
  */
 int main(void)
