@@ -1,4 +1,3 @@
-Task 8
 #include "main.h"
 #include <stdio.h>
 
