@@ -13,5 +13,5 @@ void _puts_recursion(char *s)
 
 	}
 	else
-		_putcher('\n');
+		_putchar('\n');
 }
