@@ -1,18 +1,17 @@
 #include "main.h"
 /**
- * _strlen_recursion - length of string
+ * _strlen_recursion - prints string, followed by new line.
  * @s:string
- * Return:int
+ * Return:nothing
  */
-int _strlen_recursion(char *s)
+void _puts_recursion(char *s)
 {
-	int i = 0;
-
-	if (*s)
+	if (*s != '\0')
 	{
-		i++;
-		i += _strlen_recursion(s + 1);
+		_putchar(*s);
+		_puts_recursion(s + 1);
 
 	}
-	return (i);
+	else
+		_putcher('\n');
 }
