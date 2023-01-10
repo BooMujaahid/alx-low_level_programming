@@ -5,22 +5,16 @@
  * Return:int
 */
 
-int factorial(int n)
+int _strlen_recursion(char *s)
 {
-	int x;
 
-	if (n == 0)
+	if (*s == '\0')
 	{
-		return (1);
+		return (0);
 	}
-	else if (n < 0)
-	{
-		return (-1);
+	s++;
+	
+		return (_strlen_recursion(s)+1);
 	}
-	else
-	{
-		x = n * factorial(n - 1);
-	}
-			return (x);
 
 }
